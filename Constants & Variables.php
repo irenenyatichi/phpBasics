@@ -1,3 +1,46 @@
+CONSTANTS
+Are containers for values that remain fixed/unchanged at multiple places in as much as they have been referenced multiple times
+Constants use the define() function which accepts two arguments: The name of the constant("$"is not required) & its value.
+<?php
+//The Syntax
+define('ConstName', 'value');
+
+//valid constant names
+define('ONE', "8");
+define('TWO', "23");
+define('SUM 2',ONE+TWO);
+
+define('NAME', "Rexx");
+echo  "Hello ".NAME;
+?>
+
+        1.Sum and Difference of 2 Constants
+<?php
+define('ONE', 400);
+define('TWO', 100);
+define('SUM',ONE+TWO);
+define('DIFF', ONE- TWO);
+//The Output
+print "Sum of two constant=".SUM;
+print "Difference of the two constants=" .DIFF;
+?>
+
+        2.Sum of two numbers and assign the result in a variable
+<?php
+define('ONE', 100);
+define('TWO', 100);
+$res= ONE+TWO;
+print "Sum of two constant=".$res;
+?>
+
+        3.Subtraction of two numbers using constant
+<?php
+define('X', 1000);
+define('Y', 500);
+define('Z',X - Y);
+print "Subtraction of given number =".Z;
+?>
+
 VARIABLES
 Variables start with a "$"/A dollar sign then the name of the variable.
 Can only begin with the Underscore "_"  or a letter
