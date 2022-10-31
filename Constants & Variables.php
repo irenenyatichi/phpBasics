@@ -84,14 +84,15 @@ $e = ($a*$b*100);
 echo "The car whose number plate is $numberPlate was Kshs$e.";
 ?>
 
-        5.Inspecting Variables
+        5.Inspecting Variables and Data Types
 The function var_dump() inspects the contents of a variable.
 <?php
 $string = "Number";
 $int = 3456;
-$float = 745.23;
+$doubleFloat = 745.23;
 $bool = true;
-var_dump($string, $int, $float, $bool);
+$array = array("Volvo","BMW","Toyota");
+var_dump($string, $int, $doubleFloat, $bool, $array);
 ?>
 
         6.PHP $ and $$ Variables The Difference

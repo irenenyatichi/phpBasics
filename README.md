@@ -5,4 +5,5 @@ I have used other sites like:
     https://www.webtrainingroom.com/
     https://www.educba.com/swapping-in-php/
     https://www.geeksforgeeks.org/php-tutorials/
+    https://www.w3schools.com/php/
 These are my notes. Will later do a project and add the link to the repository here.
