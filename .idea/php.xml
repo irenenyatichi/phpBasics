@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$USER_HOME$/Downloads/ZendDebugger-cygwin_nt-vc11/ZendDebugger-cygwin_nt-vc11/php-5.6.x" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="PHPUNIT_PHAR" configuration_file_path="$USER_HOME$/Downloads/ZendDebugger-cygwin_nt-vc11/ZendDebugger-cygwin_nt-vc11/php-5.6.x/ZendDebugger.dll" custom_loader_path="" phpunit_phar_path="" use_configuration_file="true" />
+    </phpunit_settings>
+  </component>
+</project>

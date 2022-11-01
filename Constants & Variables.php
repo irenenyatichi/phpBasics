@@ -63,23 +63,8 @@ In this instance I want to add a sentence to the variable'numberPlate' that I ha
 echo $numberPlate." is my cars' number plate.";
 ?>
 
-        3.Mathematical Operations
-<?php
-$a = 300;
-$b = 100;
-$c = $a + $b;
-$d = $a - $b;
-$j = $a / $b;
-$k = $a * $b;
-$l = $a % $b;
-echo "Variable 'a' in addition to variable 'b' is ".$c;
-echo "Variable 'a' minus variable 'b' is ".$d;
-echo "Variable 'a' over to variable 'b' is ".$j;
-echo "Variable 'a' multiplied by variable 'b' is ".$k;
-echo "The remainder after the division of Variable 'a' and variable 'b' is ".$l;
-?>
 
-        4.Destroying PHP Variables
+        3.Destroying PHP Variables
 It is useful to be able to delete a variable.
 The unset()function allows us to delete variables.
 You can pass one or more variables to it.
@@ -90,7 +75,7 @@ $e = ($a*$b*100);
 echo "The car whose number plate is $numberPlate was Kshs$e.";
 ?>
 
-        5.Inspecting Variables and Data Types
+        4.Inspecting Variables and Data Types
 The function var_dump() inspects the contents of a variable.
 <?php
 $string = "Number";
@@ -101,7 +86,7 @@ $array = array("Volvo","BMW","Toyota");
 var_dump($string, $int, $doubleFloat, $bool, $array);
 ?>
 
-        6.PHP $ and $$ Variables The Difference
+        5.PHP $ and $$ Variables The Difference
 Here $$var is known as reference variable where as $var is normal variable.
 It allows you to have a "variable's variable".
 <?php
