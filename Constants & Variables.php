@@ -69,8 +69,14 @@ $a = 300;
 $b = 100;
 $c = $a + $b;
 $d = $a - $b;
+$j = $a / $b;
+$k = $a * $b;
+$l = $a % $b;
 echo "Variable 'a' in addition to variable 'b' is ".$c;
 echo "Variable 'a' minus variable 'b' is ".$d;
+echo "Variable 'a' over to variable 'b' is ".$j;
+echo "Variable 'a' multiplied by variable 'b' is ".$k;
+echo "The remainder after the division of Variable 'a' and variable 'b' is ".$l;
 ?>
 
         4.Destroying PHP Variables
